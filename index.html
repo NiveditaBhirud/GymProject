@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Gym Project</title>
+    <!-- link rel="preconnect" href="https://fonts.googleapis.com"> -->
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: url(gym.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: 'Baloo Bhai 2', cursive;
+        }
+
+        .left {
+            /* border: 2px solid red; */
+            /* color: green; */
+            display: inline-block;
+            position: absolute;
+            top: 20px;
+            left: 10px;
+        }
+
+        .left img {
+            width: 80px;
+            height: 80px;
+        }
+
+        .left div {
+            text-align: center;
+        }
+
+        .mid {
+            /* border: 4px dotted yellow; */
+            color: whitesmoke;
+            display: block;
+            width: 50%;
+            margin: 20px auto;
+            margin-right: 390px;
+            /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+        }
+
+
+        .right {
+            /* border: 10px double green; */
+            color: black;
+            display: inline-block;
+            position: absolute;
+            top: 40px;
+            right: 40px;
+            /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+            width: 23%;
+
+        }
+
+        .navbar {
+            display: inline-block;
+
+        }
+
+        .navbar li {
+            display: inline-block;
+            color: limegreen;
+            font-size: 20px;
+            /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+            text-decoration: none;
+            padding: 10px 10px;
+        }
+
+        .navbar li a {
+            padding: 20px 10px;
+        }
+
+        .navbar li a.active {
+            text-decoration: underline;
+            color: white;
+        }
+
+        .btn {
+            margin: 10px;
+            background-color: yellowgreen;
+            color: black;
+            /* border-radius: 10%; */
+            padding: 0% 10%;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: rgb(255, 246, 246);
+        }
+
+        .container {
+            border: 2px solid lime;
+            /* border-radius: 28%; */
+            margin: 72px 15px;
+            padding: 60px;
+            color: lime;
+            width: 40%;
+            text-align: center;
+            font-size: 15px;
+
+        }
+
+        .form_group input{
+            padding:5px;
+            margin:5px;
+            width:80%;
+
+        }
+
+        .container button{
+            width: 80%;
+         
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="gym2.png" alt="">
+            <div>Nivedita Gym</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active"></a><b>Home</b></li>
+                <li><a href="#"></a> <b>About Us</b></li>
+                <li><a href="#"></a><b>Fitness Calculation</b></li>
+                <li><a href="#"></a><b>Contact us</b></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call us now</button><button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>This is best gym in Pune</h1>
+        <form action="noaction.php">
+            <div class="form_group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form_group">
+                <input type="text" name="" placeholder="Enter your age">
+            </div>
+            <div class="form_group">
+                <input type="text" name="" placeholder="Enter your gender">
+            </div>
+            <div class="form_group">
+                <input type="text" name="" placeholder="Enter your locality">
+            </div>
+            <button class="btn">Click Here</button>
+        </form>
+    </div>
+</body>
+
+</html>
